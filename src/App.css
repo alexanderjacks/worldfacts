@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(red, gold, forestgreen, indigo, black);
+  background-image: linear-gradient(to bottom right, darkorange, chocolate, teal, black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,4 +10,19 @@
 }
 .App-header {
   font-size: calc(14px + 2vmin);
+  margin: 1.2rem;
+}
+
+code {
+  color: white;
+}
+a {
+  color: red;
+}
+.important {
+  min-width: 80%;
+}
+.favicon {
+  width:20px; 
+  height:20px; 
 }
