@@ -12,9 +12,11 @@
   font-size: calc(14px + 2vmin);
   margin: 1.2rem;
 }
-
-code {
-  color: white;
+.img-shield {
+  margin: 1rem;
+}
+.card-buffer {
+  margin: 2rem;
 }
 a {
   color: red;
