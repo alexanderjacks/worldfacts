@@ -21,14 +21,14 @@ class App extends Component {
                 src="images/bizcard.png"
                 className="img-fluid"
                /><br/>
-               <h4>
-                Perhaps you've seen my business card?
-               </h4>
                <h5>
-                (I used Sketch)
+                Perhaps you've seen my business card?
                </h5>
+               <h6>
+                (I used Sketch)
+               </h6>
             </div>
-            <div className="d-flex align-items-center col-md-6">
+            <div className="d-flex justify-content-around flex-column col-md-6">
               <div className="mx-auto">
                 <BasicPopup
                   btnText="Companies I've worked with"
@@ -55,7 +55,7 @@ class App extends Component {
         <Projects/>
         <footer className="important my-3">
           <SocialLinks />
-          <p>Copyright Alexander Jacks, 2018
+          <p className="text-white">Copyright Alexander Jacks, 2018
           </p>
         </footer>
       </div>
