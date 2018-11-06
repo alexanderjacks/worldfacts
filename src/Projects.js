@@ -20,7 +20,11 @@ const projectList = projects.map((project) =>
 		<CardBody className="pink-accent">
 			<CardTitle className="">
 				<a href={project.siteURL.toString()}>
-					<img className="favicon mr-2" src={project.favicon} />
+					<img 
+					className="favicon mr-2" 
+					src={project.favicon}
+					alt="web app project"
+					 />
 					{project.name.toString()}
 				</a>
 			</CardTitle>

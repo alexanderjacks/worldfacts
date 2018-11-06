@@ -20,6 +20,7 @@ class App extends Component {
               <img
                 src="images/bizcard.png"
                 className="img-fluid"
+                alt="my business card"
                /><br/>
                <h5>
                 Perhaps you've seen my business card?

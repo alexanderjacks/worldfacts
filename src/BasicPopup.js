@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Swal from 'sweetalert2';
 import SweetAlert from 'sweetalert2-react';
 import { Button } from 'mdbreact';
 
@@ -14,7 +13,6 @@ class BasicPopup extends Component {
   }
 
   render() {
-    const {show, btnText} = this.state;
     return (
       <div className="BasicPopup">
 		<Button color={this.props.btnColor} onClick={() => this.setState({ show: true })}>{this.props.btnText}</Button>
