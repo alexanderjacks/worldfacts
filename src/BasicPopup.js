@@ -19,8 +19,10 @@ class BasicPopup extends Component {
 		<SweetAlert
 			show={this.state.show}
 			title={this.props.title}
-			text={this.props.text}
-			confirmButtonText="Huzzah!"
+			html={this.props.text}
+      imageUrl={this.props.imageUrl}
+      confirmButtonText={this.props.confirmButtonText}
+			confirmButtonColor="#a6c"
 			onConfirm={() => this.setState({ show: false })}
 		/>
       </div>
