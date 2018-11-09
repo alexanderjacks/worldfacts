@@ -31,5 +31,10 @@ a {
 .nivochart {
   width:220px; 
   height:320px;
-  border: 3px solid black;
+  border: 9px solid black;
+}
+.nivocalendar {
+  width:80vw; 
+  height:60vh;
+  border: 9px solid black;
 }
