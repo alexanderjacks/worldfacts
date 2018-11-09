@@ -28,9 +28,14 @@ a {
   width:20px; 
   height:20px; 
 }
-.nivochart {
+.nivowaffle {
   width:30vw; 
   height:320px;
+  border: 9px solid black;
+}
+.nivonoi {
+  width:80vw; 
+  height:360px;
   border: 9px solid black;
 }
 .nivocalendar {

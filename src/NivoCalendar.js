@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { ResponsiveCalendar } from '@nivo/calendar'
+import { ResponsiveCalendar } from '@nivo/calendar';
 
 class NivoCalendar extends Component {
   
   render() {
-    return (
-      <ResponsiveCalendar
+  return (
+    <ResponsiveCalendar
             data={[
   {
     "day": "2015-12-10",
