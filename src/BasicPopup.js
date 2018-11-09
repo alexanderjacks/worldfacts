@@ -22,7 +22,7 @@ class BasicPopup extends Component {
 			html={this.props.text}
       imageUrl={this.props.imageUrl}
       confirmButtonText={this.props.confirmButtonText}
-			confirmButtonColor="#a6c"
+			confirmButtonColor="#26b6bd"
 			onConfirm={() => this.setState({ show: false })}
 		/>
       </div>

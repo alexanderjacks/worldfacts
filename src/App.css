@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: linear-gradient(to bottom right, darkorange, chocolate, teal, black);
+  background-image: radial-gradient(papayawhip, chocolate, teal, black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,4 +27,9 @@ a {
 .favicon {
   width:20px; 
   height:20px; 
+}
+.nivochart {
+  width:220px; 
+  height:320px;
+  border: 3px solid black;
 }
