@@ -31,6 +31,12 @@ a {
   border: 9px solid black;
   margin-top: 1em;
 }
+.big-list {
+  max-width: 85vw;
+}
+.list-group-item {
+  margin-bottom: 4px;
+}
 .tiny-text {
   font-size: 9px;
 }

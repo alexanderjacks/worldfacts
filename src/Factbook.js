@@ -24,7 +24,7 @@ class Factbook extends Component {
 	
 	render () {
 		return (
-			<div>
+			<div className="big-list">
 				<h2>Nations/Regions of the World
 				</h2>
 				<ul className="list-group">
