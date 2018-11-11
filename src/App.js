@@ -3,6 +3,8 @@ import './App.css';
 
 import BasicPopup from './BasicPopup';
 import SocialLinks from './SocialLinks';
+
+import Factbook from './Factbook';
 import NivoCalendar from './NivoCalendar';
 import NivoWaffle from './NivoWaffle';
 import NivoVoronoi from './NivoVoronoi';
@@ -14,32 +16,34 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>
-            React FE Templ8
+            React Dataviz Templ8
           </h1>
           <div className="row">
             <div className="col">
-              <img
-                src="images/bizcard.png"
-                className="img-fluid"
-                alt="my business card"
-               /><br/>
-               <h5>
-                By Alexander Jacks
-               </h5>
+              <a href="http://www.alexanderjacks.info">
+                <img
+                  src="images/bizcard.png"
+                  className="img-fluid"
+                  alt="my business card"
+                 /><br/>
+                 <h5>
+                  By Alexander Jacks
+                 </h5>
+                </a>
             </div>
             <div className="d-flex justify-content-around flex-column col-md-6">
               <div className="mx-auto">
                 <BasicPopup
                   btnText="Companies I've worked with"
                   title="Proud to consult with..."
-                  text="Minority Veterans of America, Blackwood Housekeeping, JENIE.com, Veteran Mentor Network, Sitecast.com"
+                  text="Minority Veterans of America, Blackwood Housekeeping, JENIE.com, Veteran Mentor Network, Sitecast.com, Shadowcreek Software, WizFish Studios"
                   confirmButtonText="Outsanding!"
                 />
                 <BasicPopup
-                  btnText="About this FE Templ8"
+                  btnText="About this Templ8"
                   btnColor="orange"
                   title="Front-end Development Kit"
-                  text="Styling library MDBootstrap included. Some Nivo modules showcased. FontAwesome5 CDN set up. SweetAlert components ready to use."
+                  text="Styling library MDBootstrap included. Some Nivo modules showcased. FontAwesome5 CDN set up. SweetAlert components ready to use. Axios calls a local JSON (it's sourced from https://www.cia.gov/library/publications/the-world-factbook/)"
                   confirmButtonText="Way to Be! ✌️"
                 />
                 <BasicPopup
@@ -53,22 +57,24 @@ class App extends Component {
             </div>
           </div>
         </header>
-        <div className="nivonoi">
-          <NivoVoronoi />
+        <div className="important blk-frame">
+          <Factbook />
         </div>
-        <h5>Nivo Voronoi
-        </h5>
-        <div className="nivowaffle">
-          <NivoWaffle />
-        </div>
-        <h6>Nivo Waffle
-        </h6>
-
-        <div className="nivocalendar">
+        <div className="nivocalendar blk-frame">
           <NivoCalendar />
         </div>
         <h4>Nivo Calendar
         </h4>
+        <div className="nivonoi blk-frame">
+          <NivoVoronoi />
+        </div>
+        <h5>Nivo Voronoi
+        </h5>
+        <div className="nivowaffle blk-frame">
+          <NivoWaffle />
+        </div>
+        <h6>Nivo Waffle
+        </h6>
 
         <footer className="important my-3">
           <SocialLinks />

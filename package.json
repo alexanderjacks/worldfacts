@@ -8,6 +8,7 @@
     "@nivo/voronoi": "^0.51.0",
     "@nivo/waffle": "^0.51.0",
     "ajv": "^6.0.0",
+    "axios": "^0.18.0",
     "mdbreact": "^4.8.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.1",
