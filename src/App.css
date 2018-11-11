@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: radial-gradient(papayawhip, chocolate, teal, black);
+  background-image: radial-gradient(whitesmoke, snow, #191970);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,6 @@
   font-size: calc(12px + 2vmin);
 }
 .App-header {
-  font-size: calc(14px + 2vmin);
   margin: 1.2rem;
 }
 .img-shield {
@@ -31,6 +30,9 @@ a {
 .blk-frame {
   border: 9px solid black;
   margin-top: 1em;
+}
+.tiny-text {
+  font-size: 9px;
 }
 .nivowaffle {
   width:30vw; 
