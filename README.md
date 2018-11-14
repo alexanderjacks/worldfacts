@@ -5,11 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [MDBReact](https://www.npmjs.com/package/mdbreact)
 - [FontAwesome5](http://fontawesome.io/icons/)
 - [SweetAlert2](https://sweetalert2.github.io)
+- [GraphQL with schema playground](https://graphql.org/learn/schema/)
 - [nivo.rocks](http://nivo.rocks/waffle/html)
 
 ## :neckbeard: Available Scripts
 
-In the project directory, you can run:
+From root directory you can run:
 
 ### `npm start`
 
@@ -18,6 +19,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
+
+### `npm run dev`
+
+Launches Apollo GraphQL server with query playground at [port 4004](http://localhost:4004).
 
 ### `npm test`
 
