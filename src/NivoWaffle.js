@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ResponsiveWaffleHtml } from '@nivo/waffle';
 
 class NivoWaffle extends Component {	
-	render () {
+	render(){
 		return (
 		<ResponsiveWaffleHtml
             data={[

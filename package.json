@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.2.0",
     "@nivo/calendar": "^0.51.0",
+    "@nivo/treemap": "^0.51.0",
     "@nivo/voronoi": "^0.51.0",
     "@nivo/waffle": "^0.51.0",
     "ajv": "^6.0.0",
@@ -15,6 +16,7 @@
     "babel-watch": "^2.0.7",
     "express": "^4.16.4",
     "graphql": "^0.13.1",
+    "graphql-schema-from-json": "0.0.3",
     "graphql-tag": "^2.10.0",
     "graphql-tools": "^4.0.3",
     "mdbreact": "^4.8.2",

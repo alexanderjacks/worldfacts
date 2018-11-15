@@ -15,9 +15,10 @@ class Factbook extends Component {
 	    axios.get('factbook.json')
 	    	.then(json => json.data.nations.map(nation => (
 	    	{
-	    		name: `${nation.data.name}`,
-	    		geo: `${nation.data.geography.area.total.value}`,
-	    		intro: `${nation.data.introduction.background}`
+	    		name: `${nation.name}`,
+	    		intro: `${nation.introduction.background}`,
+	    		area: `${nation.geography.area.total.value}`,
+	    		econ: `${nation.economy.overview}`
 	    	})))
 	    	.then(newData => this.setState({nations: newData}))
   	}
@@ -25,14 +26,16 @@ class Factbook extends Component {
 	render () {
 		return (
 			<div className="big-list">
-				<h2>Nations/Regions of the World
-				</h2>
+				<h1>Nations/Regions of the World</h1>
+				<h2>Intro and <span className="text-success">Economic</span> data</h2>
 				<ul className="list-group">
 					{this.state.nations.map(function(nation, i){
 						return <li key={i} className="list-group-item">
 							<h5>{nation.name}</h5>
-							<h6>{nation.geo} sq.km </h6>
-							<p className="tiny-text">{nation.intro}</p>
+							<h6>🌐 {nation.area} sq.km </h6>
+							<p className="tiny-text">📚 {nation.intro}</p>
+							<p className="text-success tiny-text">💰 {nation.econ}</p>
+
 						</li>
 					}
 					)}

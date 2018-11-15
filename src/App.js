@@ -6,6 +6,7 @@ import SocialLinks from './SocialLinks';
 
 import Factbook from './Factbook';
 import NivoCalendar from './NivoCalendar';
+import PopulationTreeMap from './PopulationTreeMap';
 import NivoWaffle from './NivoWaffle';
 import NivoVoronoi from './NivoVoronoi';
 
@@ -28,14 +29,14 @@ class App extends Component {
             
           </div>
         </header>
+        <div className="nivopoptree blk-frame">
+          <PopulationTreeMap />
+        </div>
+        <h6>Worlds' 238 Populations TreeMap
+        </h6>
         <div className="important blk-frame">
           <Factbook />
         </div>
-        <div className="nivowaffle blk-frame">
-          <NivoWaffle />
-        </div>
-        <h6>Nivo Waffle
-        </h6>
 
         <footer className="important my-3">
           <SocialLinks />

@@ -38,11 +38,15 @@ a {
   margin-bottom: 4px;
 }
 .tiny-text {
-  font-size: 9px;
+  font-size: 11px;
 }
 .nivowaffle {
   width:30vw; 
   height:320px;
+}
+.nivopoptree {
+  width:80vw; 
+  height:380px;
 }
 .nivonoi {
   width:80vw; 

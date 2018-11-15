@@ -523,7 +523,7 @@ class NivoVoronoi extends Component {
 	            "left": 1
 	        }}
 	        enableLinks={true}
-	        linkLineColor="#36cc32"
+	        linkLineColor="#00ffaa"
 	        cellLineColor="#2432c6"
 	        pointSize={6}
 	        pointColor="#c6432d"
