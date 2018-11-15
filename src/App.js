@@ -29,10 +29,20 @@ class App extends Component {
             
           </div>
         </header>
+        <div className="nivonoi blk-frame">
+          <NivoVoronoi />
+        </div>
+        <h6>Nivo Voronoi Example (meaningless)
+        </h6>
         <div className="nivopoptree blk-frame">
           <PopulationTreeMap />
         </div>
         <h6>Worlds' 238 Populations TreeMap
+        </h6>
+        <div className="nivowaffle blk-frame">
+          <NivoWaffle />
+        </div>
+        <h6>Nivo Waffle (meaningless)
         </h6>
         <div className="important blk-frame">
           <Factbook />
