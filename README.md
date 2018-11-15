@@ -22,7 +22,7 @@ You will also see any lint errors in the console.
 
 ### `npm run dev`
 
-Launches Apollo GraphQL server with query playground at [port 4004](http://localhost:4004).
+Launches Apollo GraphQL server with query playground at [port 4004](http://localhost:4004/graphql).
 
 ### `npm test`
 
