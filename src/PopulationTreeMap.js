@@ -259,7 +259,7 @@ class PopulationTreeMap extends Component {
         }}
         labelSkipSize={18}
         labelTextColor="inherit:darker(1.6)"
-        colors="paired"
+        colors="set3"
         colorBy="id"
         borderWidth={1}
         borderColor="inherit:darker(0.8)"

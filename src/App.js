@@ -17,32 +17,25 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>
-            🌐 Worldfacts w/ D3
+            🌐 Worldfacts via the <a href="https://www.cia.gov/library/publications/the-world-factbook/">C.I.A</a> 🇺🇸
           </h1>
           <h4>
-            React is made for engineers 🤓
+            <a href="https://reactjs.org/docs/create-a-new-react-app.html">React</a> and lots of JSON
           </h4>
           <h5>
-            But designers can learn to use it, too 👨‍🎤
+            D3 powered by <a href="http://nivo.rocks">nivo.rocks</a>
           </h5>
+          <SocialLinks />
+          <p className="text-white">Copyright Alexander Jacks, 2018. MIT License!
+          </p>
           <div className="row">
             
           </div>
         </header>
-        <div className="nivonoi blk-frame">
-          <NivoVoronoi />
-        </div>
-        <h6>Nivo Voronoi Example (meaningless)
-        </h6>
         <div className="nivopoptree blk-frame">
           <PopulationTreeMap />
         </div>
-        <h6>Worlds' 238 Populations TreeMap
-        </h6>
-        <div className="nivowaffle blk-frame">
-          <NivoWaffle />
-        </div>
-        <h6>Nivo Waffle (meaningless)
+        <h6>World's 238 Populations TreeMap
         </h6>
         <div className="important blk-frame">
           <Factbook />
