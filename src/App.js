@@ -25,8 +25,15 @@ class App extends Component {
             D3 powered by <a href="http://nivo.rocks">nivo.rocks</a>
           </h5>
           <SocialLinks />
-          <p className="text-white">Copyright Alexander Jacks, 2018. MIT License!
+          <p className="text-white">Copyright <a href="http://alexanderjacks-services.surge.sh/">Alexander Jacks</a>, 2018. MIT License!
           </p>
+          <BasicPopup
+            btnColor="unique"
+            btnText="What's All This?"
+            title="Via The Factbook"
+            text="One of the first websites I remember losing time on was the CIA's World Factbook, back in the '90s. It took a long time to access with dial-up internet! I've decided to use the modern Factbook's data as I explore D3 and data cleaning techniques. Stay tuned, I'll keep adding to this resource as I learn more."
+            confirmButtonText="Radical 🤙"
+          />
           <div className="row">
             
           </div>
