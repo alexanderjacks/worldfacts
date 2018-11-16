@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.2.0",
     "@nivo/calendar": "^0.51.0",
+    "@nivo/scatterplot": "^0.51.0",
     "@nivo/treemap": "^0.51.0",
     "@nivo/voronoi": "^0.51.0",
     "@nivo/waffle": "^0.51.0",

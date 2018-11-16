@@ -5,10 +5,9 @@ import BasicPopup from './BasicPopup';
 import SocialLinks from './SocialLinks';
 
 import Factbook from './Factbook';
-import NivoCalendar from './NivoCalendar';
+import PopGrowthVsFossilPower from './PopGrowthVsFossilPower';
 import PopulationTreeMap from './PopulationTreeMap';
 import NivoWaffle from './NivoWaffle';
-import NivoVoronoi from './NivoVoronoi';
 
 class App extends Component {
   state = true;
@@ -35,8 +34,15 @@ class App extends Component {
         <div className="nivopoptree blk-frame">
           <PopulationTreeMap />
         </div>
-        <h6>World's 238 Populations TreeMap
+        <h6>World's 238 National Populations TreeMap
         </h6>
+
+        <div className="nivogrowthpower blk-frame">
+          <PopGrowthVsFossilPower />
+        </div>
+        <h6>Annual % Population Growth vs. %'age Fossil Fuel Power Plants
+        </h6>
+
         <div className="important blk-frame">
           <Factbook />
         </div>

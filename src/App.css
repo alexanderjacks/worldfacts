@@ -44,6 +44,11 @@ a {
   width:30vw; 
   height:320px;
 }
+.nivogrowthpower {
+  width:80vw; 
+  height:3700px;
+  background-image: linear-gradient(#444, silver, whitesmoke, azure  );
+}
 .nivopoptree {
   width:80vw; 
   height:380px;
