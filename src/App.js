@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1>
-            🌐 Worldfacts via the <a href="https://www.cia.gov/library/publications/the-world-factbook/">C.I.A</a> 🇺🇸
+            🌐 Worldfacts via the <a href="https://www.cia.gov/library/publications/the-world-factbook/">C.I.A</a> <span aria="us-flag-emoji" alt="us-flag">🇺🇸</span>
           </h1>
           <h4>
             <a href="https://reactjs.org/docs/create-a-new-react-app.html">React</a> and lots of JSON
@@ -25,7 +25,7 @@ class App extends Component {
             D3 powered by <a href="http://nivo.rocks">nivo.rocks</a>
           </h5>
           <SocialLinks />
-          <p className="text-white">Copyright <a href="http://alexanderjacks-services.surge.sh/">Alexander Jacks</a>, 2018. MIT License!
+          <p className="text-white">Copyright <a href="https://j4cks.com/">Jacks Consulting, MMXX</a> ~ MIT License!
           </p>
           <BasicPopup
             btnColor="unique"
@@ -35,7 +35,7 @@ class App extends Component {
             confirmButtonText="Radical 🤙"
           />
           <div className="row">
-            
+
           </div>
         </header>
         <div className="nivopoptree blk-frame">
@@ -43,16 +43,6 @@ class App extends Component {
         </div>
         <h6>World's 238 National Populations TreeMap
         </h6>
-
-        <div className="nivogrowthpower blk-frame">
-          <PopGrowthVsFossilPower />
-        </div>
-        <h6>Annual % Population Growth vs. %'age Fossil Fuel Power Plants
-        </h6>
-
-        <div className="important blk-frame">
-          <Factbook />
-        </div>
 
         <footer className="important my-3">
           <SocialLinks />
