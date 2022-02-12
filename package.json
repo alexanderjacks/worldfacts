@@ -9,7 +9,7 @@
     "@nivo/treemap": "^0.51.0",
     "@nivo/voronoi": "^0.51.0",
     "@nivo/waffle": "^0.51.0",
-    "ajv": "^6.0.0",
+    "ajv": "^6.12.3",
     "apollo-boost": "^0.1.20",
     "apollo-server-express": "^2.2.2",
     "axios": "^0.18.1",
